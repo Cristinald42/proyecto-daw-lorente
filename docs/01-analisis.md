@@ -53,7 +53,7 @@ Se elige **The StoryGraph** como empresa tipo porque representa el modelo que EN
 - **Tamaño:** microempresa. En 2024 su fundadora seguía siendo el equipo de desarrollo principal, con un cofundador y colaboradores externos.
 - **Estructura:** funcional, remota y muy plana. Las decisiones de producto y tecnología recaen en la dirección; el resto de funciones se reparte o se externaliza.
 - **Datos de crecimiento:** pasó de 3,8 millones de usuarios activos en febrero de 2025 a más de **5 millones de registros** en enero de 2026.
-- **Modelo:** freemium sin publicidad. El plan gratuito cubre el seguimiento básico; **Plus** añade estadísticas avanzadas y cuesta 4,99 $/mes o 49,99 $/año.
+- **Modelo:** freemium sin publicidad. El plan gratuito cubre el seguimiento básico; **Plus** añade estadísticas avanzadas y cuesta 4,99$ al mes o 49,99$ al año.
 
 ```mermaid
 flowchart TD
