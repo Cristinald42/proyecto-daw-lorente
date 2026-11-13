@@ -1,6 +1,3 @@
-> **Plantilla.** Se rellena **hoy, en la sesión de Inicio (6-nov-2026)** y se afina hasta el **12-nov**, donde el tutor aprueba la propuesta. Es breve: una página. Si algo no lo sabes todavía, escribe «pendiente» y por qué. Borra las notas en cursiva al rellenar.
->
-> **No escribas datos personales sensibles** (teléfono, dirección, DNI) ni tu correo personal.
 
 ## 1. Datos del alumno/a
 
