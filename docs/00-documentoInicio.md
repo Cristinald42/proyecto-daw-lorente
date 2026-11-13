@@ -46,11 +46,11 @@ Será una plataforma de uso personal.
 | # | Funcionalidad | ¿Imprescindible? (sí / no) |
 |---|---|---|
 | 1 | Registro, inicio de sesión y gestión de perfiles de usuario.| Sí|
-| 1 | Biblioteca personal y registro del seguimiento de lecturas.| Sí|
-| 1 | Diario literario con anotaciones, citas y reflexiones asociadas a libros.|Sí |
-| 1 | Creación y gestión de proyectos literarios y sus capítulos.|Sí |
-| 1 | Creación y gestión de fichas de personajes, escenarios y cronologías.| Sí|
-| 1 | Relación entre lecturas, anotaciones e ideas de los proyectos de escritura.|No |
+| 2 | Biblioteca personal y registro del seguimiento de lecturas.| Sí|
+| 3 | Diario literario con anotaciones, citas y reflexiones asociadas a libros.|Sí |
+| 4 | Creación y gestión de proyectos literarios y sus capítulos.|Sí |
+| 5 | Creación y gestión de fichas de personajes, escenarios y cronologías.| Sí|
+| 6 | Relación entre lecturas, anotaciones e ideas de los proyectos de escritura.|No |
 
 ## 7. Tecnologías previstas
 
