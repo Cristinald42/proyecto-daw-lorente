@@ -8,7 +8,7 @@
 |---|---|
 | **Nombre y apellidos** |Cristina Lorente Díaz |
 | **Usuario de GitHub** |cristinald42 |
-| **Repositorio del proyecto** | *enlace* |
+| **Repositorio del proyecto** | https://github.com/Cristinald42/proyecto-daw-lorente |
 | **Ciclo y curso** | DAW, 2.º · curso 2026-27 |
 | **Fecha** | 2026-11-06 |
 
