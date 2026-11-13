@@ -43,8 +43,6 @@ Será una plataforma de uso personal.
 
 ## 6. Funcionalidades principales
 
-*Lista de 3 a 6 cosas que debe hacer. Marca cuáles son imprescindibles para una **primera versión mínima** (la que quieres tener funcionando antes del 31-mar).*
-
 | # | Funcionalidad | ¿Imprescindible? (sí / no) |
 |---|---|---|
 | 1 | Registro, inicio de sesión y gestión de perfiles de usuario.| Sí|
@@ -55,8 +53,6 @@ Será una plataforma de uso personal.
 | 1 | Relación entre lecturas, anotaciones e ideas de los proyectos de escritura.|No |
 
 ## 7. Tecnologías previstas
-
-*Lenguajes, frameworks, base de datos, despliegue... Y cuáles ya conoces y cuáles tendrás que aprender.*
 
 | Tecnología | Para qué | Nivel actual (nada / algo / bien) |
 |---|---|---|
@@ -78,8 +74,9 @@ Será una plataforma de uso personal.
 
 ## 9. Datos y empresas
 
-- ¿El proyecto parte de una **empresa** (por ejemplo, de tus prácticas)? No. Si es sí: ¿tienes su **autorización escrita** para usar información suya? **Sí / No / En trámite**. Se plantea como un encargo simulado.
-- ¿Usará **datos personales reales**? **Debe ser que no**: usa datos de ejemplo.
+- ¿El proyecto parte de una **empresa** (por ejemplo, de tus prácticas)? No.
+- Si es sí: ¿tienes su **autorización escrita** para usar información suya? **Sí / No / En trámite**. Se plantea como un encargo simulado.
+- ¿Usará **datos personales reales**? No: usa datos de ejemplo.
 
 ## 10. Riesgos y dudas iniciales
 
