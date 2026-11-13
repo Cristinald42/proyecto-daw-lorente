@@ -262,7 +262,6 @@ Los requisitos parten de las necesidades del apartado 2 y del estudio de `01b-so
 |---|---|---|---|---|---|---|
 | ENISA Emprendedoras Digitales 2026 | ENISA (Ministerio de Industria y Turismo) | Préstamo participativo para pymes digitales lideradas por mujeres | 25.000-1.500.000 € | Pyme constituida en España, participación relevante de mujeres, modelo innovador, fondos propios ≥ importe del préstamo, cuentas depositadas | Abierto; sin fecha fija de cierre | F19 |
 | Kit Digital | Red.es | Bonos para contratar soluciones digitales (web, comercio electrónico, CRM, ciberseguridad, etc.) | Hasta 3.000 € para autónomos y empresas de 0-2 empleados (segmento III); hasta 12.000 € para 10-49 empleados | Autónomo o pyme, test de madurez digital, alta censal y límite de minimis | Convocatorias por orden de solicitud; a 13-nov-2026 hay que comprobar el estado en Red.es | F18 |
-| Kit Consulting | Red.es | Asesoramiento experto en transformación digital, datos, IA y ciberseguridad | 12.000-24.000 € | Pymes de 10 a 249 empleados | No aplica a un proyecto individual; convocatoria sujeta a fondos | F18 |
 | Línea ICO Empresas y Emprendedores | ICO | Financiación de inversiones y liquidez | Hasta 20 años de plazo, según la línea | Autónomos y empresas; se tramita en una entidad financiera | Abierta | F23 |
 
 **Lectura realista.** Ninguna de estas ayudas está pensada para un TFG sin empresa constituida. ENISA exige personalidad jurídica y fondos propios equivalentes al préstamo; el Kit Digital exige ser autónomo o pyme y contratar a un agente digitalizador. Por tanto, en el TFG se estudian como **vías de continuidad** si el proyecto se convierte en producto, no como financiación del trabajo académico. La opción más coherente a medio plazo sería darse de alta como autónoma y solicitar el Kit Digital para la web y la ciberseguridad; ENISA tendría sentido solo con una sociedad y un plan de negocio sólido.
@@ -354,12 +353,11 @@ gantt
 | F15 | Growth Market Reports, *Creative Writing Software Market* | https://growthmarketreports.com/report/creative-writing-software-market | 2026-11-13 |
 | F16 | Universidad de Granada, informe LETRAL-IA sobre el mapa del libro español | https://canal.ugr.es/noticia/edicion-independiente-lidera-ficcion-espana-informe-ugr/ | 2026-11-13 |
 | F17 | About Amazon, estudio Ipsos sobre hábitos de lectura y autopublicación | https://www.aboutamazon.es/noticias/libros-y-autores/amazon-anuncia-los-cinco-finalistas-del-premio-literario-kindle-storyteller-para-autores-independientes | 2026-11-13 |
-| F18 | Red.es, programa Kit Digital | https://www.kitdigital.red.es/ | 2026-11-13 |
-| F19 | Cámara de Valencia, ficha de ENISA Emprendedoras Digitales 2026 | https://www.camaravalencia.com/wp-content/uploads/2023/05/ENISA_Financiacion_Emprendedoras_Digitales_2026.pdf | 2026-11-13 |
-| F20 | AEPD, *Guía sobre el uso de las cookies* | https://www.aepd.es/guias/guia-cookies.pdf | 2026-11-13 |
-| F21 | BOE, RGPD, LOPDGDD, LSSI-CE, LPI, Ley 31/1995 y Ley 11/2023 | https://www.boe.es/ | 2026-11-13 |
-| F22 | Reedsy, sitio oficial | https://reedsy.com/ | 2026-11-13 |
-| F23 | ICO, línea Empresas y Emprendedores | https://www.ico.es/ | 2026-11-13 |
+| F18 | Cámara de Valencia, ficha de ENISA Emprendedoras Digitales 2026 | https://www.camaravalencia.com/wp-content/uploads/2023/05/ENISA_Financiacion_Emprendedoras_Digitales_2026.pdf | 2026-11-13 |
+| F19 | AEPD, *Guía sobre el uso de las cookies* | https://www.aepd.es/guias/guia-cookies.pdf | 2026-11-13 |
+| F20 | BOE, RGPD, LOPDGDD, LSSI-CE, LPI, Ley 31/1995 y Ley 11/2023 | https://www.boe.es/ | 2026-11-13 |
+| F21 | Reedsy, sitio oficial | https://reedsy.com/ | 2026-11-13 |
+| F22 | ICO, línea Empresas y Emprendedores | https://www.ico.es/ | 2026-11-13 |
 
 ---
 
