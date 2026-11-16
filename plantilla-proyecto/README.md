@@ -1,8 +1,7 @@
-# Nombre de tu proyecto
+# ENTRE LÍNEAS
 
-> **Plantilla.** Copia esta carpeta como tu repositorio de proyecto y sustituye los textos entre `[corchetes]`. Borra este recuadro cuando lo hayas hecho.
-
-**Una frase:** [qué problema resuelve tu proyecto y para quién].
+Plataforma web para lectores y escritores.
+Aplicación web que reúne herramientas de gestión de lecturas, escritura y organización de proyectos literarios en un mismo entorno.
 
 ## Estado
 
@@ -35,7 +34,7 @@
 
 ## Autoría
 
-[Tu nombre]. Proyecto intermodular de DAW (0616), CIFP Sectores Industriales y Servicios, curso 2026-27.
+Cristina Lorente Díaz. Proyecto intermodular de DAW (0616), CIFP Sectores Industriales y Servicios, curso 2026-27.
 
 ## Licencia
 
