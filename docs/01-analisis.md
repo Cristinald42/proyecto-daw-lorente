@@ -1,6 +1,6 @@
 # 01 · Análisis y documentación inicial (RA1)
 
-> **Estado:** versión de trabajo para la entrega **H1 (26-nov-2026)**. Datos y enlaces verificados el **13-nov-2026**. Las cifras de mercado y de usuarios son estimaciones públicas: se indican sus límites en `01b-sota.md`, apartado 8.
+> **Estado:** versión de trabajo para la entrega **H1 (26-nov-2026)**. Datos y enlaces verificados entre el **13-nov-2026** y el **19-nov-2026**. Las cifras de mercado y de usuarios son estimaciones públicas: se indican sus límites en `01b-sota.md`, apartado 8.
 
 ## 1. Sector y empresas (CE 1a, 1b)
 
@@ -16,18 +16,18 @@ El sector de **ENTRE LÍNEAS** es el de las tecnologías y servicios digitales p
 
 **Por tamaño, estructura organizativa y titularidad**
 
-| Empresa | Sede | Tamaño | Estructura organizativa | Titularidad |
-|---|---|---|---|---|
-| Amazon (Goodreads, Kindle, KDP) | EE. UU. | Grande | Divisional y matricial: marketplace, dispositivos, AWS, publicidad, contenidos | Sociedad cotizada |
-| Naver / WEBTOON Entertainment (Wattpad) | Corea del Sur / EE. UU. | Grande | Divisional: plataformas, contenido, IP, publicidad | Sociedad cotizada; Wattpad es filial |
-| Penguin Random House | España / global | Grande | Divisional por mercados y sellos; funciones centrales de edición, ventas y marketing | Privada (Bertelsmann) |
-| Planeta | España | Grande | Divisional: editorial, medios, formación, librerías; empresa familiar | Privada y familiar |
-| The StoryGraph | Reino Unido | Micro | Funcional, equipo pequeño y remoto; dirección fundadora | Privada |
-| Literature & Latte (Scrivener) | Reino Unido | Micro / pequeña | Funcional; producto, desarrollo, soporte y administración | Privada |
-| World Anvil | Reino Unido | Pequeña | Funcional con comunidad muy activa; producto, desarrollo, soporte y comunidad | Privada |
-| Reedsy | Reino Unido | Pequeña / mediana | Estructura en red: marketplace de profesionales editoriales | Privada |
-| Calibre | Comunidad internacional | Comunidad | Proyecto de código abierto; mantenido por voluntarios y donaciones | Comunidad (GPLv3) |
-| Notion Labs | EE. UU. | Grande | Funcional por equipos de producto; SaaS horizontal | Privada |
+| Empresa | Sede | Tamaño | Estructura organizativa | Titularidad | Enlace y fecha de acceso | Estado |
+|---|---|---|---|---|---|---|
+| Amazon (Goodreads, Kindle, KDP) | EE. UU. | Grande | Divisional y matricial: marketplace, dispositivos, AWS, publicidad, contenidos | Sociedad cotizada | https://www.amazon.com/ (2026-11-13) | `leído` |
+| Naver / WEBTOON Entertainment (Wattpad) | Corea del Sur / EE. UU. | Grande | Divisional: plataformas, contenido, IP, publicidad | Sociedad cotizada; Wattpad es filial | https://www.wattpad.com/ (2026-11-13) | `leído` |
+| Penguin Random House | España / global | Grande | Divisional por mercados y sellos; funciones centrales de edición, ventas y marketing | Privada (Bertelsmann) | https://www.penguinrandomhouse.com/ (2026-11-13) | `leído` |
+| Planeta | España | Grande | Divisional: editorial, medios, formación, librerías; empresa familiar | Privada y familiar | https://www.planeta.es/ (2026-11-13) | `leído` |
+| The StoryGraph | Reino Unido | Micro | Funcional, equipo pequeño y remoto; dirección fundadora | Privada | https://app.thestorygraph.com/ (2026-11-13) | `leído` |
+| Literature & Latte (Scrivener) | Reino Unido | Micro / pequeña | Funcional; producto, desarrollo, soporte y administración | Privada | https://www.literatureandlatte.com/ (2026-11-13) | `leído` |
+| World Anvil | Reino Unido | Pequeña | Funcional con comunidad muy activa; producto, desarrollo, soporte y comunidad | Privada | https://www.worldanvil.com/ (2026-11-13) | `leído` |
+| Reedsy | Reino Unido | Pequeña / mediana | Estructura en red: marketplace de profesionales editoriales | Privada | https://reedsy.com/ (2026-11-13) | `leído` |
+| Calibre | Comunidad internacional | Comunidad | Proyecto de código abierto; mantenido por voluntarios y donaciones | Comunidad (GPLv3) | https://calibre-ebook.com/ (2026-11-13) | `leído` |
+| Notion Labs | EE. UU. | Grande | Funcional por equipos de producto; SaaS horizontal | Privada | https://www.notion.so/ (2026-11-13) | `leído` |
 
 **Por producto o servicio y papel en la cadena de valor**
 
@@ -56,7 +56,7 @@ Se elige **The StoryGraph** como empresa tipo porque representa el modelo que EN
 - **Modelo:** freemium sin publicidad. El plan gratuito cubre el seguimiento básico; **Plus** añade estadísticas avanzadas y cuesta 4,99 $/mes o 49,99 $/año.
 
 ```mermaid
-flowchart TD
+flowchart LR
     CEO["Dirección general<br/>(fundadora / CEO)"]
     CEO --> PROD["Producto y experiencia"]
     CEO --> TEC["Tecnología"]
@@ -80,6 +80,8 @@ flowchart TD
     ADM --> FIN["Contabilidad y fiscalidad"]
     ADM --> LEG["Privacidad y contratos"]
 ```
+
+*Diagrama en Mermaid. La fuente editable también está en [`diagramas/organigrama-storygraph.mmd`](diagramas/organigrama-storygraph.mmd).*
 
 | Departamento | Funciones principales |
 |---|---|
@@ -116,13 +118,15 @@ Criterio de priorización: se puntúa cada necesidad de 1 a 5 en **frecuencia** 
 
 Datos cuantitativos que sostienen la oportunidad:
 
+**Fuente principal:** [FGEE, *Hábitos de Lectura y Compra de Libros en España 2025*](https://federacioneditores.org/wp-content/uploads/2026/02/habitos-de-lectura-2025.pdf) (F1, acceso 2026-11-13).
+
 - **Lectura en España:** el 69,8 % de la población de 14 años o más lee libros; el 66,2 % lo hace por ocio; el 33,2 % lee en soporte digital y el 9 % usa audiolibros. El 54,1 % compró algún libro no de texto en el último año (F1, F2).
 - **Demanda de herramientas digitales:** Goodreads supera los **150 millones de miembros**; StoryGraph pasó de 3,8 millones de usuarios activos (febrero de 2025) a más de **5 millones de registros** (enero de 2026); Wattpad forma parte de un ecosistema con unos **155 millones de usuarios activos mensuales** (F3, F4, F5, F6, F7).
 - **Escritura y autopublicación:** el 32 % de los encuestados elegiría la autopublicación para compartir sus historias, y el Premio Kindle Storyteller recibió cerca de **7.000 obras** en 2025 (F17).
 - **Edición independiente:** las editoriales independientes publicaron el **39 % de los títulos de ficción** registrados en España en 2025; la autopublicación representó el 15 %, tras bajar desde el 30 % de 2021 (F16).
 - **Mercado de software de escritura creativa:** los informes comerciales lo sitúan entre **754 y 1.150 millones de dólares** en 2025, con un crecimiento anual estimado del **9,5-10,5 %** hasta 2034. Son cifras no auditadas y con metodologías distintas; se usan como orden de magnitud, no como dato exacto (F14, F15).
 
-**Valoración.** No es un mercado masivo como el de las redes sociales, pero sí un nicho con demanda demostrada y dispuesto a pagar por herramientas especializadas. La oportunidad de ENTRE LÍNEAS no está en ganar a Goodreads, sino en ocupar un hueco que hoy obliga al usuario a saltar entre una app de lectura, un procesador de texto, una wiki y una hoja de cálculo. El riesgo principal es el alcance: querer cubrir demasiado y no terminar ninguna de las dos mitades.
+**Valoración.** No es un mercado masivo como el de las redes sociales, pero sí un nicho con demanda demostrada y dispuesto a pagar por herramientas especializadas. La oportunidad de ENTRE LÍNEAS no está en ganar a Goodreads, sino en ocupar un hueco que hoy obliga al usuario a saltar entre una plataforma de lectura, un procesador de texto, una wiki y una hoja de cálculo. El riesgo principal es el alcance: querer cubrir demasiado y no terminar ninguna de las dos mitades.
 
 ## 3. Tipo de proyecto elegido (CE 1e)
 
@@ -291,6 +295,8 @@ gantt
     Defensa :f7, 2027-06-15, 2027-06-30
 ```
 
+*Diagrama en Mermaid. La fuente editable también está en [`diagramas/guion-trabajo.mmd`](diagramas/guion-trabajo.mmd).*
+
 | Fase | Fechas | Entregable | Responsable | Estado |
 |---|---|---|---|---|
 | 0. Inicio y propuesta | 6-12 nov 2026 | Documento de inicio y propuesta aprobada | Alumna y tutor | Hecho |
@@ -360,6 +366,21 @@ gantt
 | F21 | BOE, RGPD, LOPDGDD, LSSI-CE, LPI, Ley 31/1995 y Ley 11/2023 | https://www.boe.es/ | 2026-11-13 |
 | F22 | Reedsy, sitio oficial | https://reedsy.com/ | 2026-11-13 |
 | F23 | ICO, línea Empresas y Emprendedores | https://www.ico.es/ | 2026-11-13 |
+| F24 | Goodreads, sitio oficial | https://www.goodreads.com/ | 2026-11-19 |
+| F25 | Notion, sitio oficial | https://www.notion.so/ | 2026-11-19 |
+| F26 | Fable, sitio oficial | https://fable.co/ | 2026-11-19 |
+| F27 | Open Library, documentación de la API | https://openlibrary.org/developers/api | 2026-11-19 |
+
+La documentación técnica utilizada para el estudio de viabilidad (Java, Spring Boot, MySQL, Flyway, Thymeleaf, Docker, pruebas y calidad) se relaciona en el apartado 7.2 de [`01b-sota.md`](01b-sota.md).
+
+## 10. Uso de inteligencia artificial
+
+La IA se ha utilizado como apoyo para buscar y contrastar fuentes, estructurar los documentos y revisar la redacción. Cada sesión queda registrada en [`asistenciaIA/bitacora.md`](../asistenciaIA/bitacora.md), que hace de declaración de uso de IA del módulo. [`declaracion-uso-ia.md`](declaracion-uso-ia.md) solo resume el alcance y enlaza a la bitácora.
+
+- **Herramienta principal:** OpenCode con el modelo Big Pickle.
+- **Qué no se delega:** la elección del alcance, la interpretación de las fuentes y la defensa oral.
+- **Datos:** no se han introducido datos personales, claves ni información confidencial.
+- **Revisión:** las fuentes citadas se han abierto y comprobado; los límites se explican en el apartado 8 de `01b-sota.md`.
 
 ---
 

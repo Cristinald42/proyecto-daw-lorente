@@ -1,0 +1,40 @@
+# Secretos y entorno (NUNCA se suben)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# Java, Maven y Spring Boot
+target/
+*.class
+*.jar
+*.war
+!.mvn/wrapper/maven-wrapper.jar
+hs_err_pid*
+replay_pid*
+.mvn/timing.properties
+
+# Dependencias y compilados
+node_modules/
+vendor/
+build/
+dist/
+
+# IDE y sistema
+.idea/
+.vscode/
+*.iml
+.settings/
+.classpath
+.project
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Datos locales de MySQL o Docker
+mysql-data/
+data/

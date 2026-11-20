@@ -1,10 +1,10 @@
 # 01b · Estado del arte (SOTA) de mi proyecto
 
-> **Estado:** versión completa de trabajo para **H1 (26-nov-2026)** y **H2 (21-ene-2027)**. Datos y enlaces verificados el **13-nov-2026**. Los apartados 1, 2 y 5 son los que se entregan en H1; los apartados 3, 4, 6, 7 y 8 se completan en H2, pero se incluyen ya para no dejar el documento a medias. Las cifras de usuarios y de mercado son estimaciones públicas y se discuten en el apartado 8.
+> **Estado:** versión completa de trabajo para **H1 (26-nov-2026)** y **H2 (21-ene-2027)**. Datos y enlaces verificados entre el **13-nov-2026** y el **19-nov-2026**. Los apartados 1, 2 y 5 son los que se entregan en H1; los apartados 3, 4, 6, 7 y 8 se completan en H2, pero se incluyen ya para no dejar el documento a medias. Las cifras de usuarios y de mercado son estimaciones públicas y se discuten en el apartado 8.
 
 ## 1. Problema y preguntas de búsqueda (CE 1c)
 
-**Problema:** quien lee y escribe a la vez no tiene un solo lugar donde la biblioteca, el diario de lectura y el proyecto literario estén conectados; hoy salta entre una app de seguimiento, un procesador de texto, una wiki de *worldbuilding* y una hoja de cálculo.
+**Problema:** quien lee y escribe a la vez no tiene un solo lugar donde la biblioteca, el diario de lectura y el proyecto literario estén conectados; hoy salta entre una plataforma de seguimiento, un procesador de texto, una wiki de *worldbuilding* y una hoja de cálculo.
 
 | # | Pregunta | Dónde busqué | Fecha |
 |---|---|---|---|
@@ -24,7 +24,7 @@ Se comparan ocho soluciones con los mismos criterios: a quién sirven, qué hace
 |---|---|---|---|---|---|
 | **Goodreads** (Amazon) | Lectores | Catálogo, estanterías, progreso, retos anuales, reseñas y comunidad | Gratuito; publicidad y datos para Amazon; sin plan de pago | https://www.goodreads.com/ (2026-11-13) | `leído` |
 | **The StoryGraph** | Lectores que quieren estadísticas y recomendaciones sin Amazon | Seguimiento, estadísticas, retos, recomendaciones por estado de ánimo y contenido; sin publicidad | *Freemium*: gratis + Plus 4,99 $/mes o 49,99 $/año | https://app.thestorygraph.com/plus (2026-11-13) | `leído` |
-| **Scrivener** (Literature & Latte) | Escritores de textos largos | Borrador por carpetas y escenas, tablero de corcho, metadatos, exportación y compilación | Licencia perpetua: 59,99 $ escritorio; 49,99 $ educativo; iOS 23,99 $ | https://www.literatureandlatte.com/store/scrivener (2026-11-13) | `leído` |
+| **Scrivener** (Literature & Latte) | Escritores de textos largos | Borrador por carpetas y escenas, tablero de corcho, metadatos, exportación y compilación | Licencia perpetua: 59,99 $ escritorio; 49,99 $ educativo | https://www.literatureandlatte.com/store/scrivener (2026-11-13) | `leído` |
 | **Campfire** | Escritores de ficción y *worldbuilding* | Módulos de personajes, relaciones, cronología, mapas, manuscrito y enciclopedias | *Freemium* modular; se paga por módulos o por plan | https://www.campfirewriting.com/pricing (2026-11-13) | `leído` |
 | **World Anvil** | Escritores y creadores de mundos | Wiki de universo, cronologías, mapas, árboles genealógicos, manuscrito y comunidad | Suscripción por niveles; Guild desde unos 4,50 $/mes | https://www.worldanvil.com/pricing (2026-11-13) | `leído` |
 | **bibisco** | Escritores de novela | Planificación de novela: capítulos, escenas, personajes, entrevistas y análisis | Código abierto GPL-3.0 (Community) + edición Supporters de pago único (69 $) | https://github.com/andreafeccomandi/bibisco (2026-11-13) | `leído` |
@@ -41,7 +41,7 @@ Se comparan ocho soluciones con los mismos criterios: a quién sirven, qué hace
 - **Calibre** resuelve la biblioteca de archivos, no el seguimiento ni la escritura.
 - **Notion, la hoja de cálculo y el cuaderno** son el sustituto real de la mayoría: baratos y flexibles, pero sin modelo de datos literario, sin estadísticas y sin vínculos entre lectura y escritura.
 
-*Figura: cobertura de cada solución según su especialización en lectura o escritura y su precio.*
+*Diagrama: cobertura de cada solución según su especialización en lectura o escritura y su precio.*
 
 ```mermaid
 quadrantChart
@@ -63,7 +63,9 @@ quadrantChart
     ENTRE LÍNEAS: [0.95, 0.18]
 ```
 
-**Lectura de la figura.** El cuadrante superior derecho (integral y de pago) está ocupado por suites de escritura que no leen. El cuadrante inferior derecho (integral y gratuito) está vacío salvo por soluciones horizontales como Notion, que no entienden de libros. ENTRE LÍNEAS se sitúa a propósito en ese hueco: cubre las dos mitades y renuncia a cobrar en el MVP.
+*Diagrama en Mermaid. La fuente editable también está en [`diagramas/cuadrante-soluciones.mmd`](diagramas/cuadrante-soluciones.mmd).*
+
+**Lectura del diagrama.** El cuadrante superior derecho (integral y de pago) está ocupado por suites de escritura que no leen. El cuadrante inferior derecho (integral y gratuito) está vacío salvo por soluciones horizontales como Notion, que no entienden de libros. ENTRE LÍNEAS se sitúa a propósito en ese hueco: cubre las dos mitades y renuncia a cobrar en el MVP.
 
 ## 3. Modelos de negocio (CE 1d, 1e)
 
@@ -86,7 +88,7 @@ La tabla incluye dos patrones observados en el sector cuyos productos no están 
 |---|---|
 | **Segmentos de clientes** | Lectores intensivos, lectores que abandonan Goodreads, clubes de lectura y creadores de contenido literario. |
 | **Propuesta de valor** | Seguimiento de lecturas con estadísticas ricas, recomendaciones por estado de ánimo y contenido, sin publicidad ni dependencia de Amazon. |
-| **Canales** | Web, apps móviles, redes sociales, boca a boca y prensa tecnológica y literaria. |
+| **Canales** | Web, redes sociales, boca a boca y prensa tecnológica y literaria. |
 | **Relación con clientes** | Autoservicio, comunidad y atención directa de un equipo pequeño; comunicación pública de la hoja de ruta. |
 | **Fuentes de ingresos** | Suscripción Plus (4,99 $/mes o 49,99 $/año). Sin publicidad. |
 | **Recursos clave** | Producto, base de datos bibliográfica, algoritmos de recomendación, marca y comunidad. |
@@ -183,7 +185,7 @@ Se comparan las decisiones técnicas con los mismos criterios: madurez, licencia
 
 ## 6. Decisiones derivadas (CE 1e, 1f, 2b)
 
-- **Tipo de proyecto elegido** (enlaza con el apartado 3 de [`01-analisis.md`](01-analisis.md)): aplicación web *full-stack* de uso personal, con dos espacios conectados y perfil combinado. Se descartan red social, marketplace, app nativa y software de escritorio por coste, plazo y alcance.
+- **Tipo de proyecto elegido** (enlaza con el apartado 3 de [`01-analisis.md`](01-analisis.md)): aplicación web *full-stack* de uso personal, con dos espacios conectados y perfil combinado. Se descartan red social, marketplace, aplicación móvil nativa y software de escritorio por coste, plazo y alcance.
 - **Requisitos que salen del estudio** (con su ID del apartado 4 de `01-analisis.md`):
   - RF-03, RF-04 y RF-05: biblioteca, seguimiento y diario, porque son la base que el usuario ya espera de Goodreads y StoryGraph.
   - RF-06 a RF-09: proyectos, capítulos, personajes, escenarios y cronología, porque son la base que el usuario ya espera de Scrivener y Campfire.
@@ -200,7 +202,9 @@ Se comparan las decisiones técnicas con los mismos criterios: madurez, licencia
 
 ## 7. Fuentes y calidad (CE 2a)
 
-Se reutilizan los identificadores F1-F23 de [`01-analisis.md`](01-analisis.md), apartado 9, para que ambos documentos sean coherentes. Todas las fuentes se consultaron el **13-nov-2026**.
+### 7.1 Fuentes del sector
+
+Se reutilizan los identificadores F1-F27 de [`01-analisis.md`](01-analisis.md), apartado 9, para que ambos documentos sean coherentes. Las fuentes F1-F23 se consultaron el **13-nov-2026** y las F24-F27 el **19-nov-2026**.
 
 | # | Fuente (enlace) | Tipo | Fecha de acceso | Fiabilidad (alta / media / baja) y por qué |
 |---|---|---|---|---|
@@ -227,6 +231,35 @@ Se reutilizan los identificadores F1-F23 de [`01-analisis.md`](01-analisis.md), 
 | F21 | BOE, RGPD, LOPDGDD, LSSI-CE, LPI, Ley 31/1995 y Ley 11/2023: https://www.boe.es/ | Legislación | 2026-11-13 | Alta: texto legal consolidado |
 | F22 | Reedsy, sitio oficial: https://reedsy.com/ | Web oficial | 2026-11-13 | Alta para el modelo de comisión; no se usa para cifras de mercado |
 | F23 | ICO, línea Empresas y Emprendedores: https://www.ico.es/ | Web oficial | 2026-11-13 | Alta para condiciones generales |
+| F24 | Goodreads, sitio oficial: https://www.goodreads.com/ | Web oficial de producto | 2026-11-19 | Alta para funciones y modelo de negocio; los datos de usuarios son autodeclarados |
+| F25 | Notion, sitio oficial: https://www.notion.so/ | Web oficial de producto | 2026-11-19 | Alta para funciones y precios; se usa como sustituto horizontal, no como competidor directo |
+| F26 | Fable, sitio oficial: https://fable.co/ | Web oficial de producto | 2026-11-19 | Alta para el modelo de comunidad y comisión; no se usa para cifras de mercado |
+| F27 | Open Library, documentación de la API: https://openlibrary.org/developers/api | Documentación técnica | 2026-11-19 | Alta para el uso previsto; la disponibilidad y los límites del servicio pueden cambiar |
+
+### 7.2 Documentación técnica
+
+| ID | Documentación | Uso en el proyecto | Enlace | Fecha |
+|---|---|---|---|---|
+| T1 | Java 21 (Oracle) | Lenguaje y API del backend | https://docs.oracle.com/en/java/javase/21/ | 2026-11-19 |
+| T2 | Spring Boot | Framework de la aplicación | https://docs.spring.io/spring-boot/ | 2026-11-19 |
+| T3 | Spring Framework | Contenedor, MVC y configuración | https://docs.spring.io/spring-framework/reference/ | 2026-11-19 |
+| T4 | Spring Security | Autenticación y autorización con sesiones | https://docs.spring.io/spring-security/reference/ | 2026-11-19 |
+| T5 | Spring Data JPA | Persistencia y repositorios | https://docs.spring.io/spring-data/jpa/reference/ | 2026-11-19 |
+| T6 | Thymeleaf | Plantillas del renderizado en servidor | https://www.thymeleaf.org/documentation.html | 2026-11-19 |
+| T7 | Bootstrap 5 | Diseño responsive y componentes | https://getbootstrap.com/docs/5.3/ | 2026-11-19 |
+| T8 | MySQL 8.4 LTS | Base de datos relacional | https://dev.mysql.com/doc/refman/8.4/en/ | 2026-11-19 |
+| T9 | Flyway | Migraciones versionadas | https://documentation.red-gate.com/flyway | 2026-11-19 |
+| T10 | Hibernate ORM | Mapeo objeto-relacional | https://hibernate.org/orm/documentation/ | 2026-11-19 |
+| T11 | Apache Maven | Construcción y dependencias | https://maven.apache.org/guides/ | 2026-11-19 |
+| T12 | JUnit 5 | Pruebas unitarias | https://junit.org/junit5/docs/current/user-guide/ | 2026-11-19 |
+| T13 | Mockito | Dobles de prueba | https://site.mockito.org/ | 2026-11-19 |
+| T14 | Testcontainers | Pruebas de integración con MySQL real | https://testcontainers.com/guides/ | 2026-11-19 |
+| T15 | Playwright para Java | Pruebas de extremo a extremo | https://playwright.dev/java/docs/intro | 2026-11-19 |
+| T16 | Docker Compose | Entorno local y despliegue | https://docs.docker.com/compose/ | 2026-11-19 |
+| T17 | Nginx | Servidor inverso y HTTPS | https://nginx.org/en/docs/ | 2026-11-19 |
+| T18 | Open Library API | Importación de metadatos de libros | https://openlibrary.org/developers/api | 2026-11-19 |
+| T19 | OWASP ASVS | Verificación de seguridad | https://owasp.org/www-project-application-security-verification-standard/ | 2026-11-19 |
+| T20 | WCAG 2.2 | Accesibilidad | https://www.w3.org/TR/WCAG22/ | 2026-11-19 |
 
 **Calidad de la evidencia.** Hay al menos dos fuentes independientes para las cifras de lectura (F1 y F2) y para el modelo de negocio de referencia (F3 y F4). Las cifras de usuarios de plataformas son autodeclaradas o periodísticas, no auditadas: se usan para describir el orden de magnitud, no para calcular cuotas de mercado.
 
@@ -239,7 +272,7 @@ Se reutilizan los identificadores F1-F23 de [`01-analisis.md`](01-analisis.md), 
 - **Usuarios.** No se han hecho entrevistas ni encuestas propias; la necesidad se deduce de informes del sector y de la existencia de productos de pago. Es la limitación más importante y se cubrirá con el test de usabilidad de H2.
 - **Tecnología.** Las alternativas se han valorado con documentación y experiencia del ciclo, no con un *benchmark* propio. Las pruebas de carga y de seguridad del MVP están pendientes.
 - **Legal.** El análisis legal es informativo y no sustituye el asesoramiento de un profesional. Las obligaciones se han identificado por su condición de aplicación, pero no se ha constituido ninguna empresa.
-- **Uso de IA.** La búsqueda y la redacción se han apoyado en herramientas de IA, pero cada fuente se ha abierto y comprobado manualmente antes de citarla. La declaración detallada queda pendiente en [`declaracion-uso-ia.md`](declaracion-uso-ia.md).
+- **Uso de IA.** La búsqueda y la redacción se han apoyado en herramientas de IA, pero cada fuente se ha abierto y comprobado manualmente antes de citarla. La declaración oficial es la bitácora [`../asistenciaIA/bitacora.md`](../asistenciaIA/bitacora.md); [`declaracion-uso-ia.md`](declaracion-uso-ia.md) solo resume el alcance.
 
 ---
 

@@ -1,3 +1,6 @@
+# 00 · Documento de inicio del proyecto
+
+> **Estado:** documento de trabajo para la revisión del tutor (ciclo 1, 16-19 nov 2026). Si algo cambia, se actualiza aquí.
 
 ## 1. Datos del alumno/a
 
@@ -67,10 +70,10 @@ Será una plataforma de uso personal.
 
 ## 8. Dónde se integra con los módulos de 2.º
 
-- [ ] Desarrollo web en entorno cliente (0612)
-- [ ] Desarrollo web en entorno servidor (0613)
-- [ ] Despliegue de aplicaciones web (0614)
-- [ ] Diseño de interfaces web (0615)
+- [x] Desarrollo web en entorno cliente (0612)
+- [x] Desarrollo web en entorno servidor (0613)
+- [x] Despliegue de aplicaciones web (0614)
+- [x] Diseño de interfaces web (0615)
 
 ## 9. Datos y empresas
 
